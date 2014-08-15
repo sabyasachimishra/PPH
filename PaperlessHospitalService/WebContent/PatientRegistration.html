@@ -1,0 +1,278 @@
+
+<html>
+
+<head>
+
+<style>
+
+.kk{ color :green;font-size:30px;}
+
+.kk1{ color :lightgreen;font-size:20px;}
+
+</style>
+
+<script>
+
+
+
+</script>
+
+</head>
+
+<body>
+
+<form action="newpatient.jsp" method="get">
+
+<p id="side1" class="kk">Personal data</p>
+
+	<table id="t1">
+
+		<tr>
+
+			<td>Registration ID</td>
+
+			<td><input type="text" size="25" name="reg_id" value="Enter your Registration_id here" onclick="this.value='';"/>
+
+		</tr>
+
+		<tr>
+
+			<td>First name</td>
+
+			<td><input type="text"  size="25" name="firstname" title="Enter your first name here" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td>Middle Name</td>
+
+			<td><input type="text"  size="25" name="firstname" title="Enter your middle name here" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td>last name</td>
+
+			<td><input type="text"  size="25" name="firstname" title="Enter your last name here" /></td>
+
+		</tr>
+
+		<tr><td >Gender</td>
+
+		<td><select  name="gender">	  
+
+		<option  value="male">male</option>
+
+		<option  value="female">female</option>
+
+		<option  value="other">other</option>
+
+		</select></td></tr>
+
+		<tr>
+
+		<td>Date of Birth</td>
+
+		<td><input type="text" name="date" size="2" /></td>
+
+        <td><select name="month">	  
+
+		<option  value="Jan"> Jan  </option>
+
+		<option  value="feb"> feb </option>
+
+		<option  value="mar"> mar  </option>
+
+		<option  value="apr"> apr  </option>
+
+		<option  value="may"> may  </option>
+
+		<option  value=" jun"> jun  </option>
+
+		<option  value=" jul "> jul  </option>
+
+		<option  value="aug"> aug  </option>
+
+		<option  value="sept"> sept  </option>			
+
+		<option  value="oct"> oct    </option>
+
+		<option  value="Nov"> Nov  </option>
+
+		<option  value="Dec"> Dec  </option>
+
+        </select></td>
+
+		<td><input type="text" name="year" size="2" /></td>
+
+		</tr>
+
+		<tr>
+
+			<td>Age</td>
+
+			<td><input type="text" name="age" size="2" /><td/>
+
+		</tr>
+
+			<tr><td>Occupation</td>
+
+			<td><input type="text" name="occupation" size="5" /></td>
+
+		</tr>
+
+		<tr>
+
+		<td>Marital Status</td>
+
+		<td><select name="marital_status">	  
+
+			<option  value="married"> married  </option>
+
+			<option  value="never"> single </option>
+
+		   <option  value="widowed"> widowed  </option>
+
+		   <option  value="separated"> separated </option>
+
+		   <option  value="divorced">divorced  </option>
+
+	   	</select></td></tr>
+
+		<tr><td class="kk">Address</td></tr>
+
+		<tr><td class="kk1">Permanent</td></tr>
+
+		
+
+		
+
+		
+
+		<tr><td>Appartment Number</td>
+
+		<td><input type="text" name="p.appartmentnumber" size="10" /><td/></tr>
+
+		<tr>
+
+		<td>Street number</td>
+
+		<td><input type="text" name="p.streetnumber" size="10" /><td/></tr>
+
+		<tr><td>Streetname</td>
+
+		<td><input type="text"  name="p.streetname" size="10" /><td/></tr>
+
+		<tr>
+
+		<td>City</td>
+
+		<td><input type="text" name="p.city" size="10" /><td/></tr>
+
+		<tr><td>State</td>
+
+		<td><input type="text" name="p.state" size="10" /></td><tr/>
+
+		<tr><td>Country</td>
+
+		<td><input type="text" name="p.country" size="10" /></td><tr/>
+
+		<tr><td>Postcode</td>
+
+		<td><input type="text" name="p.postcode" size="10" /></td><tr/>
+
+		<tr><td>Contact No</td>
+
+		<td><input type="text" name="p.contactno"/></td><tr/>
+
+		<tr><td>Email Address</td>
+
+		<td><input type="text" name="p.emailaddress" size="50"/></td><tr/>
+
+		
+
+		
+
+		
+
+		<tr><td class="kk1">Residential</td></tr>
+
+	
+
+		<tr><td>Appartment Number</td>
+
+		<td><input type="text" name="r.appartmentnumber" size="10" /></td><tr/>
+
+		<tr><td>Street number</td>
+
+		<td><input type="text" name="r.streetnumber" size="10" /></td><tr/>
+
+		<tr><td>Streetname</td><td><input type="text" name="r.streetname" size="10" /></td><tr/>
+
+		<tr><td>City</td><td><input type="text" name="r.city" size="10" /></td><tr/>
+
+		<tr><td>State</td><td><input type="text" name="r.state" size="10" /></td><tr/>
+
+		<tr><td>Country</td><td><input type="text" name="r.country" size="10" /></td><tr/>
+
+		<tr><td>Postcode</td><td><input type="text" name="r.postcode" size="10" /></td><tr/>	
+
+		<tr><td>Contact No</td><td><input type="text"  name="r.contactno"/></td><tr/>
+
+		<tr><td>Email Address</td><td><input type="text" name="r.emailaddress" size="50"/></td></tr/>
+
+		
+
+		
+
+		<tr><td class="kk1">Official</td></tr>
+
+		
+
+		<tr><td>Appartment Number</td><td><input type="text" name="o.appartmentnumber" size="10" /></td><tr/>
+
+        <tr><td>Street number</td><td><input type="text" name="o.streetnumber" size="10" /></td><tr/>
+
+		<tr><td>Street name</td><td><input type="text"  name="o.streetname" size="10" /></td><tr/>
+
+		<tr><td>City</td><td><input type="text" name="o.city" size="10" /></td><tr/>
+
+		<tr><td>State</td><td><input type="text" name="o.state" size="10" /></td><tr/>
+
+		<tr><td>Country</td><td><input type="text" name="o.country" size="10" /></td><tr/>
+
+		<tr><td>Postcode</td><td><input type="text" name="o.postcode" size="10" /></td><tr/>
+
+		<tr><td>Contact No</td><td><input type="text" name="o.contactno"/></td></tr>
+
+		<tr><td>Email Address</td><td><input type="text"  name="o.emailaddress" size="50"/></td><tr/>
+
+		
+
+		
+
+		<tr><td class="kk">Medical Details</td></tr>
+
+		
+
+		<tr><td>Blood Group</td><td><input type="text" name="bloodgroup" size="2" /></td><tr/>
+
+		<tr><td>Weight</td><td><input type="text" name="weight" size="2"/></td></tr/>
+
+		<tr><td>Height</td><td><input type="text" name="height" size="2"/></td><tr/>
+
+		<tr><td>Reference</td><td><input type="text" name="reference" size="10 "/></td><tr/>	
+
+		<tr><td></td><td><input type="submit"  size="5"  name="button" value="submit"/></td></tr>
+
+		</table>
+
+		
+
+		
+</form>
+</body>
+
+</html>

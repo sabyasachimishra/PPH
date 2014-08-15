@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <style>
+  #tbl{position:absolute; left : 0px; top : 0px;}
+  #box1{visibility:hidden; position:absolute;left:280px;top : 30px; font-family : webdings; color : green; font-size:30px;}
+  #box2{visibility:hidden; position:absolute;left:280px;top : 30px; font-family : webdings; color : red; font-size:30px;}
+  
+  </style>
+  <script>
+  function show()
+  {
+   document.all.main.style.height="300px";
+   document.all.tbl.style.visibility="visible";
+  }
+  function check()
+  {
+	var t=0;
+	var a,b;
+	a = document.all.val1.value;
+	b = document.all.val2.value;
+	
+	if(a==b)
+	{
+	document.all.box1.style.visibility="visible";
+	document.all.box2.style.visibility="hidden";
+	t=1;
+	}
+	else
+	{
+	document.all.box2.style.visibility="visible";
+	document.all.box1.style.visibility="hidden";
+	}
+  }
+	function cck()
+	{
+		if(t==1)
+		{
+			
+		}
+	}
+  </script>
+  </head>
+  <body>	
+  <%	
+  if(session.getAttribute("currentSessionUserfname")==null)
+		{
+			response.sendRedirect("https://localhost:9443/PaperlessHospitalService/invalidLogin.jsp"); //error page
+		}%>     
+  <p id="box1">a</p>
+  <p id="box2">r</p>
+	   <form action="updateprofilepassword.jsp" method="POST" id="fm1" enctype="application/x-www-form-urlencoded">
+	   		 <table id="tbl">
+			 		<tr><td>Previous Password</td><td><input type="password" name="current"></input></td></tr>
+			 		<tr><td>New Password</td><td><input type="password" name="val1"></input></td></tr>
+			 		<tr><td>Confirm Password</td><td><input type="password" name="val2" onblur="check()"></input></td></tr>
+			 		<tr><td><input id="sub" type="submit" onclick="cck()"></input></td></tr>
+			 </table>
+			
+			 
+	   </form> 
+  </body>
+</html>

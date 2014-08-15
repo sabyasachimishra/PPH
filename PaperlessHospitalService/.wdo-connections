@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<connections:connections xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:connections="http://www.ibm.com/websphere/wdo/connections">
+  <connection id="LOGINDB">
+    <development xsi:type="connections:rsc-live-connection" id="LOGINDB_dev" name="LOGINDB"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc.jar;C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc_license_cisuz.jar" id="LOGINDB_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="LOGINDB" jndi-name="jdbc/LOGINDB" port-number="50000" resource-reference-name="LOGINDB" server-name="localhost" sql-vendor-type="49" userid="sairam"/>
+  </connection>
+  <connection id="PAT_DB">
+    <development xsi:type="connections:rsc-live-connection" id="PAT_DB_dev" name="PAT_DB"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc.jar;C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc_license_cisuz.jar" id="PAT_DB_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="PAT_DB" jndi-name="jdbc/PAT_DB" port-number="50000" resource-reference-name="PAT_DB" server-name="localhost" sql-vendor-type="49" userid="sairam"/>
+  </connection>
+  <connection id="EMP_DB">
+    <development xsi:type="connections:rsc-live-connection" id="EMP_DB_dev" name="EMP_DB"/>
+    <runtime xsi:type="connections:datasource-connection" auto-deploy="true" class-location="C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc.jar;C:\Program Files\IBM\SDPShared\plugins\com.ibm.datatools.db2_2.0.0.v200808071952\driver\db2jcc_license_cisuz.jar" id="EMP_DB_runtime" classname="com.ibm.db2.jcc.DB2ConnectionPoolDataSource" database-name="EMP_DB" jndi-name="jdbc/EMP_DB" port-number="50000" resource-reference-name="EMP_DB" server-name="localhost" sql-vendor-type="49" userid="sairam"/>
+  </connection>
+</connections:connections>

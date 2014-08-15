@@ -1,0 +1,80 @@
+Migration startupWed Mar 28 08:26:31 IST 2012
+Resource checkout
+C:/Users/sairam/workspace/PaperlessHospitalService/.settings/org.eclipse.wst.common.project.facet.core.xml
+C:/Users/sairam/workspace/PaperlessHospitalService/.classpath
+Migrating project PaperlessHospitalService
+migrator ID: com.ibm.ws.ast.st.migration.internal.migrator.UnresolvedRuntimeMigrator project: PaperlessHospitalService
+1-A runtime environment was not selected with this project. You may encounter errors with the project. Consider updating the targeted runtime environment by right-click the project and select Properties > Targeted Runtimes.
+
+INFO     Validating project: PaperlessHospitalService
+INFO       Running validator: Facet Consistency (id= FacetConsistencyValidator)
+INFO         project nature: org.eclipse.wst.common.project.facet.core.nature exists=true
+INFO         project file: .settings/org.eclipse.wst.common.project.facet.core.xml exists=true
+OK           verified that both nature and settings file exist.  (both must exist, or neither exist)
+OK           successfully loaded IFacetedProject model object
+INFO       Finished running validator: Facet Consistency (id= FacetConsistencyValidator)
+INFO       Running validator: Component Consistency (id= ComponentConsistencyValidator)
+INFO         project nature: org.eclipse.wst.common.modulecore.ModuleCoreNature exists=true
+INFO         project file: .settings/org.eclipse.wst.common.component exists=true
+OK           verified that both nature and settings file exist.  (both must exist, or neither exist)
+OK           successfully loaded IVirtualComponent model object
+INFO       Finished running validator: Component Consistency (id= ComponentConsistencyValidator)
+INFO       Running validator: Orphaned J2EE Meta-Data (id= OrphanedJ2EEMetaDataValidator)
+OK           no back level j2ee meta-data has been found, file: .j2ee does not exist and no back level natures are defined.
+OK           no back level web meta-data has been found, file: .websettings does not exist and no back level web natures are defined.
+INFO       Finished running validator: Orphaned J2EE Meta-Data (id= OrphanedJ2EEMetaDataValidator)
+INFO       Running validator: Application Client Consistency (id= AppClientConsistencyValidator)
+INFO         This project is not identified as an Application Client project
+INFO       Finished running validator: Application Client Consistency (id= AppClientConsistencyValidator)
+INFO       Running validator: Application Client Forward Consistency (id= AppClientForwardValidator)
+INFO         This project is not identified as a backlevel Application Client project
+INFO       Finished running validator: Application Client Forward Consistency (id= AppClientForwardValidator)
+INFO       Running validator: Connector Consistency (id= ConnectorConsistencyValidator)
+INFO         This project is not identified as a Connector project
+INFO       Finished running validator: Connector Consistency (id= ConnectorConsistencyValidator)
+INFO       Running validator: Connector Forward Consistency (id= ConnectorForwardConsistencyValidator)
+INFO         This project is not identified as a backlevel Connector project
+INFO       Finished running validator: Connector Forward Consistency (id= ConnectorForwardConsistencyValidator)
+INFO       Running validator: EAR consistency (id= EARConsistencyValidator)
+INFO         This project is not identified as an EAR project
+INFO       Finished running validator: EAR consistency (id= EARConsistencyValidator)
+INFO       Running validator: EAR Forward Consistency (id= EARForwardConsistencyValidator)
+INFO         This project is not identified as a backlevel EAR project
+INFO       Finished running validator: EAR Forward Consistency (id= EARForwardConsistencyValidator)
+INFO       Running validator: Web Consistency (id= WebConsistencyValidator)
+INFO         this project contains facet: Dynamic Web Module 3.0
+INFO         checking for incompatible facets
+OK           facet: Application Client module not present
+OK           facet: Utility Module not present
+OK           facet: J2C Module not present
+OK           facet: Static Web Module not present
+OK           facet: EAR not present
+OK           facet: EJB Module not present
+INFO         finished checking for incompatible facets
+ERROR        java.lang.NullPointerException
+INFO       Finished running validator: Web Consistency (id= WebConsistencyValidator)
+INFO       Running validator: Web Forward Consistency (id= WebForwardConsistencyValidator)
+ERROR        Migration Validator: WebConsistencyValidator failed
+INFO         This project is not identified as a backlevel WEB project
+INFO       Finished running validator: Web Forward Consistency (id= WebForwardConsistencyValidator)
+INFO       Running validator: JSF Consistency (id= JsfConsistencyValidator)
+INFO         This project is not identified as a JSF project
+INFO       Finished running validator: JSF Consistency (id= JsfConsistencyValidator)
+INFO       Running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO         The project has no EJB model associated with it.  EJB mapping backend validation will not be performed.
+INFO       Finished running validator: EJB Mapping Validator (id= EjbMappingValidator)
+INFO       Running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+INFO       Finished running validator: WebSphere Facet Validator (id= WebSphereFacetValidator)
+INFO       Running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+OK           The WebSphere runtime is valid at the configured path:  C:/Program Files/IBM/WebSphere/AppServer
+OK           The WebSphere runtime is at a supported level:  7.0
+INFO       Finished running validator: WebSphere Runtime Validator (id= WebSphereRuntimeValidator)
+INFO       Running validator: EJB Consistency (id= EJBConsistencyValidator)
+INFO         This project is not identified as an EJB project
+INFO       Finished running validator: EJB Consistency (id= EJBConsistencyValidator)
+INFO       Running validator: EJB Forward Consistency (id= EJBForwardConsistencyValidator)
+INFO         This project is not identified as a backlevel EJB project
+INFO       Finished running validator: EJB Forward Consistency (id= EJBForwardConsistencyValidator)
+INFO     Finished validating project: PaperlessHospitalService
+
+Migration complete

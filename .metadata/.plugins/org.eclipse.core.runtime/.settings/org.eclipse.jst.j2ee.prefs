@@ -1,0 +1,6 @@
+#Sat Mar 31 02:13:25 IST 2012
+eclipse.preferences.version=1
+com.ibm.etools.j2ee.preferences.missingManifestClasspath=warning
+com.ibm.etools.j2ee.preferences.missingWebLibClasspath=warning
+com.ibm.etools.j2ee.preferences.duplicateManifestClasspath=warning
+com.ibm.etools.j2ee.preferences.duplicateWebLibClasspath=warning

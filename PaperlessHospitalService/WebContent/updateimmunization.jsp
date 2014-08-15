@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%	
+  if(session.getAttribute("currentSessionUserfname")==null)
+		{
+			response.sendRedirect("https://localhost:9443/PaperlessHospitalService/invalidLogin.jsp"); //error page
+		}%>  
+<form action="processupdateimmunization.jsp" method="get">
+     IMMUNIZATION ID<input type="text" size="25" name="imid" title="Enter IMMUNIZATION_id here"/><br/>
+	  IMMUNIZATION NAME<input type="text" size="25" name="imname" title="Enter IMMUNIZATION NAME here"/><br/>
+	  IMMUNIZATION DESCRIPTION<textarea rows="5" cols="20" name="imdes" title="Enter IMMUNIZATION DESCRIPTION here">
+      </textarea><br/>
+       IMMUNIZATION PRICE<input type="text" size="25" name="impr" title="Enter IMMUNIZATION PRICE here"/><br/>
+	  <input type="submit"  size="5"  name="button" value="submit"/> 
+
+</form>
+</body>
+</html>

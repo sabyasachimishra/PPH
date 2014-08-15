@@ -1,0 +1,8 @@
+#Fri Mar 30 23:24:32 IST 2012
+__DEFAULT__=false
+org.eclipse.sdk.Eclipse.master=true
+org.eclipse.sdk.Google.master=true
+org.eclipse.help.ui.localSearch.master=true
+com.ibm.developerWorks.master=true
+expression=http port
+com.ibm.websphere.infocenter.master=true
